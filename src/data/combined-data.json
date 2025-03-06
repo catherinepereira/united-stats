@@ -1,0 +1,302 @@
+[
+	{
+		"State": "Alabama",
+		"AveragePrecipitation": 56,
+		"StatePopulation": 4817678,
+		"MedianHomePrice": 277000
+	},
+	{
+		"State": "Alaska",
+		"AveragePrecipitation": 29.03,
+		"StatePopulation": 728300,
+		"MedianHomePrice": 396000
+	},
+	{
+		"State": "Arizona",
+		"AveragePrecipitation": 11.8,
+		"StatePopulation": 6561516,
+		"MedianHomePrice": 462000
+	},
+	{
+		"State": "Arkansas",
+		"AveragePrecipitation": 49.72,
+		"StatePopulation": 2947036,
+		"MedianHomePrice": 260000
+	},
+	{
+		"State": "California",
+		"AveragePrecipitation": 22.97,
+		"StatePopulation": 38066920,
+		"MedianHomePrice": 869000
+	},
+	{
+		"State": "Colorado",
+		"AveragePrecipitation": 16.98,
+		"StatePopulation": 5197580,
+		"MedianHomePrice": 662000
+	},
+	{
+		"State": "Connecticut",
+		"AveragePrecipitation": 50.07,
+		"StatePopulation": 3592053,
+		"MedianHomePrice": 460000
+	},
+	{
+		"State": "Delaware",
+		"AveragePrecipitation": 45.82,
+		"StatePopulation": 917060,
+		"MedianHomePrice": 403000
+	},
+	{
+		"State": "Florida",
+		"AveragePrecipitation": 54.73,
+		"StatePopulation": 19361792,
+		"MedianHomePrice": 433000
+	},
+	{
+		"State": "Georgia",
+		"AveragePrecipitation": 50.22,
+		"StatePopulation": 9907756,
+		"MedianHomePrice": 388000
+	},
+	{
+		"State": "Hawaii",
+		"AveragePrecipitation": 50.33,
+		"StatePopulation": 1392704,
+		"MedianHomePrice": 947000
+	},
+	{
+		"State": "Idaho",
+		"AveragePrecipitation": 16.91,
+		"StatePopulation": 1599464,
+		"MedianHomePrice": 491000
+	},
+	{
+		"State": "Illinois",
+		"AveragePrecipitation": 38.52,
+		"StatePopulation": 12868747,
+		"MedianHomePrice": 289000
+	},
+	{
+		"State": "Indiana",
+		"AveragePrecipitation": 41.86,
+		"StatePopulation": 6542411,
+		"MedianHomePrice": 261000
+	},
+	{
+		"State": "Iowa",
+		"AveragePrecipitation": 34.5,
+		"StatePopulation": 3078116,
+		"MedianHomePrice": 241000
+	},
+	{
+		"State": "Kansas",
+		"AveragePrecipitation": 32.43,
+		"StatePopulation": 2882946,
+		"MedianHomePrice": 288000
+	},
+	{
+		"State": "Kentucky",
+		"AveragePrecipitation": 46.27,
+		"StatePopulation": 4383272,
+		"MedianHomePrice": 271000
+	},
+	{
+		"State": "Louisiana",
+		"AveragePrecipitation": 59.15,
+		"StatePopulation": 4601049,
+		"MedianHomePrice": 248000
+	},
+	{
+		"State": "Maine",
+		"AveragePrecipitation": 45.49,
+		"StatePopulation": 1328535,
+		"MedianHomePrice": 414000
+	},
+	{
+		"State": "Maryland",
+		"AveragePrecipitation": 42.7,
+		"StatePopulation": 5887776,
+		"MedianHomePrice": 513000
+	},
+	{
+		"State": "Massachusetts",
+		"AveragePrecipitation": 48.42,
+		"StatePopulation": 6657291,
+		"MedianHomePrice": 646000
+	},
+	{
+		"State": "Michigan",
+		"AveragePrecipitation": 32.79,
+		"StatePopulation": 9889024,
+		"MedianHomePrice": 267000
+	},
+	{
+		"State": "Minnesota",
+		"AveragePrecipitation": 28.61,
+		"StatePopulation": 5383661,
+		"MedianHomePrice": 364000
+	},
+	{
+		"State": "Mississippi",
+		"AveragePrecipitation": 56.48,
+		"StatePopulation": 2984345,
+		"MedianHomePrice": 257000
+	},
+	{
+		"State": "Missouri",
+		"AveragePrecipitation": 42.52,
+		"StatePopulation": 6028076,
+		"MedianHomePrice": 273000
+	},
+	{
+		"State": "Montana",
+		"AveragePrecipitation": 14.92,
+		"StatePopulation": 1006370,
+		"MedianHomePrice": 539000
+	},
+	{
+		"State": "Nebraska",
+		"AveragePrecipitation": 26.66,
+		"StatePopulation": 1855617,
+		"MedianHomePrice": 290000
+	},
+	{
+		"State": "Nevada",
+		"AveragePrecipitation": 9.46,
+		"StatePopulation": 2761584,
+		"MedianHomePrice": 499000
+	},
+	{
+		"State": "New Hampshire",
+		"AveragePrecipitation": 44.84,
+		"StatePopulation": 1321069,
+		"MedianHomePrice": 499000
+	},
+	{
+		"State": "New Jersey",
+		"AveragePrecipitation": 48.02,
+		"StatePopulation": 8874374,
+		"MedianHomePrice": 542000
+	},
+	{
+		"State": "New Mexico",
+		"AveragePrecipitation": 14.24,
+		"StatePopulation": 2080085,
+		"MedianHomePrice": 396000
+	},
+	{
+		"State": "New York",
+		"AveragePrecipitation": 42.87,
+		"StatePopulation": 19594330,
+		"MedianHomePrice": 522000
+	},
+	{
+		"State": "North Carolina",
+		"AveragePrecipitation": 46.92,
+		"StatePopulation": 9750405,
+		"MedianHomePrice": 390000
+	},
+	{
+		"State": "North Dakota",
+		"AveragePrecipitation": 18.59,
+		"StatePopulation": 704925,
+		"MedianHomePrice": 296000
+	},
+	{
+		"State": "Ohio",
+		"AveragePrecipitation": 39.24,
+		"StatePopulation": 11560380,
+		"MedianHomePrice": 255000
+	},
+	{
+		"State": "Oklahoma",
+		"AveragePrecipitation": 37.62,
+		"StatePopulation": 3818851,
+		"MedianHomePrice": 247000
+	},
+	{
+		"State": "Oregon",
+		"AveragePrecipitation": 43.62,
+		"StatePopulation": 3900343,
+		"MedianHomePrice": 522000
+	},
+	{
+		"State": "Pennsylvania",
+		"AveragePrecipitation": 42.77,
+		"StatePopulation": 12758729,
+		"MedianHomePrice": 319000
+	},
+	{
+		"State": "Rhode Island",
+		"AveragePrecipitation": 49.96,
+		"StatePopulation": 1053252,
+		"MedianHomePrice": 518000
+	},
+	{
+		"State": "South Carolina",
+		"AveragePrecipitation": 49.24,
+		"StatePopulation": 4727273,
+		"MedianHomePrice": 402000
+	},
+	{
+		"State": "South Dakota",
+		"AveragePrecipitation": 22.02,
+		"StatePopulation": 834708,
+		"MedianHomePrice": 340000
+	},
+	{
+		"State": "Tennessee",
+		"AveragePrecipitation": 51.85,
+		"StatePopulation": 6451365,
+		"MedianHomePrice": 397000
+	},
+	{
+		"State": "Texas",
+		"AveragePrecipitation": 35,
+		"StatePopulation": 26092033,
+		"MedianHomePrice": 349000
+	},
+	{
+		"State": "Utah",
+		"AveragePrecipitation": 15.79,
+		"StatePopulation": 2858111,
+		"MedianHomePrice": 620000
+	},
+	{
+		"State": "Vermont",
+		"AveragePrecipitation": 42.58,
+		"StatePopulation": 626358,
+		"MedianHomePrice": 395800
+	},
+	{
+		"State": "Virginia",
+		"AveragePrecipitation": 42.76,
+		"StatePopulation": 8185131,
+		"MedianHomePrice": 416000
+	},
+	{
+		"State": "Washington",
+		"AveragePrecipitation": 38.67,
+		"StatePopulation": 6899123,
+		"MedianHomePrice": 677000
+	},
+	{
+		"State": "West Virginia",
+		"AveragePrecipitation": 44.36,
+		"StatePopulation": 1853881,
+		"MedianHomePrice": 261000
+	},
+	{
+		"State": "Wisconsin",
+		"AveragePrecipitation": 33.11,
+		"StatePopulation": 5724692,
+		"MedianHomePrice": 326000
+	},
+	{
+		"State": "Wyoming",
+		"AveragePrecipitation": 13.23,
+		"StatePopulation": 575251,
+		"MedianHomePrice": 461000
+	}
+]
