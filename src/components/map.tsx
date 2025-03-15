@@ -11,17 +11,20 @@ const USChoropleth: React.FC = () => {
     const data = combinedData;
 
     const colorScale = scaleQuantize<string>()
-        .domain([0, 1000000])
+        .domain([0, 100])
         .range(["#FFEDA0", "#FED976", "#FEB24C", "#FD8D3C", "#FC4E2A", "#E31A1C"]);
 
-    const getColor = (state: string) => {
-        return colorScale(data[state]["AveragePrecipitation"]);
+    const getColor = (state: string): string => {
+        const stateData = data.find((v) => v.State === state);
+        if (!stateData) return colorScale(0);
+        return colorScale(stateData.AveragePrecipitation);
+        
     };
 
     return (
         <div>
             <h1>US Choropleth Map</h1>
-            <svg viewBox="0 0 800 500" style={{ width: "100%", height: "auto" }}>
+            <svg viewBox="0 0 800 500" style={{ width: "50%", height: "auto" }}>
                 {features.map((feature, index) => (
                 <path
                     key={index}
