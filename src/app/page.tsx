@@ -1,10 +1,12 @@
-import USChoropleth from "@/components/map";
+import StatBox from "@/components/StatBox";
+import Map from "../components/Map";
 
 export default function Home() {
   return (
     <main>
-      <h1>US Choropleth Map</h1>
-      <USChoropleth />
+      <h1>The United Stats Project</h1>
+      <Map />
+      <StatBox/>
     </main>
   );
 }

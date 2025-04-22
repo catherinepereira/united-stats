@@ -1,13 +1,10 @@
-"use client";
-
 import { geoAlbersUsa, geoPath, GeoPermissibleObjects, scaleQuantize } from "d3";
 import combinedData from "../data/combined-data.json";
 import usStates from "../data/us-states.json";
 
 
-const USChoropleth: React.FC = () => {
+const Map: React.FC = () => {
     const features = usStates.features;
-
     const data = combinedData;
 
     const colorScale = scaleQuantize<string>()
@@ -23,7 +20,6 @@ const USChoropleth: React.FC = () => {
 
     return (
         <div>
-            <h1>US Choropleth Map</h1>
             <svg viewBox="0 0 800 500" style={{ width: "50%", height: "auto" }}>
                 {features.map((feature, index) => (
                 <path
@@ -39,4 +35,4 @@ const USChoropleth: React.FC = () => {
     );
 };
 
-export default USChoropleth;
+export default Map;
