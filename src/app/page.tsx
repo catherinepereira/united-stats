@@ -1,12 +1,11 @@
-import StatBox from "@/components/StatBox";
-import Map from "../components/Map";
+import ContentSection from "@/components/Content";
+import HeaderSection from "@/components/Header";
 
 export default function Home() {
   return (
     <main>
-      <h1>The United Stats Project</h1>
-      <Map />
-      <StatBox/>
+      <HeaderSection />
+      <ContentSection/>
     </main>
   );
 }

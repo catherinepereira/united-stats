@@ -1,10 +1,12 @@
 "use client"
 import { Stat, StatDefinition, Stats } from "@/data/statdefinition";
-import { useState } from "react";
 
+type Props = {
+    selectedStat: Stat | undefined;
+    onSelectStat: (stat: Stat | undefined) => void;
+};
 
-const StatBox: React.FC = () => {
-    const [selectedStat, setSelectedStat] = useState<Stat | undefined>(undefined);
+const StatBox: React.FC<Props> = ({selectedStat, onSelectStat}) => {
     const stats = Object.values(Stat).map((stat) => [stat, Stats[stat]]) as [Stat, StatDefinition][];
 
     const filteredStats = stats.filter((stat) => {
@@ -13,16 +15,16 @@ const StatBox: React.FC = () => {
     });
 
     return (
-        <div className="border border-gray-700 p-4 rounded-2xl bg-gray-900 shadow-lg">
+        <div className="border border-gray-300 p-4 rounded-2xl bg-white shadow-lg">
             {/* Title */}
-            <h2 className="text-lg font-semibold text-white">Stats</h2>
+            <h1 className="text-3xl font-light text-black">Stats</h1>
 
             {/* Search Bar */}
-            <form className="max-w-md mx-auto">   
-                <label form="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+            <form className="max-w-sm mx-left mt-4">   
+                <label form="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
                 <div className="relative">
                     <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                        <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                        <svg className="w-4 h-4 text-[#3696E3]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                         </svg>
                     </div>
@@ -31,12 +33,19 @@ const StatBox: React.FC = () => {
             </form>
         
             {/* Stats List */}
-            <div className="mt-2">
-                <div className="flex flex-wrap">
+            <div className="mt-6">
+                <div className="flex-col flex gap-2">
                     {stats.map(([stat, def], _) => (
-                    <p key={stat} className="mr-2 mb-2 px-3 py-1 text-sm bg-cyan-500/15 text-cyan-300 rounded-md">
-                        {def.name}
-                    </p>
+                        <button key={stat} className="mr-2 mb-2 px-3 py-1 text-sm bg-[#3696E3]/15 text-[#3696E3] rounded-lg" 
+                            onClick={() => {
+                                if (selectedStat === stat) {
+                                    onSelectStat(undefined)
+                                } else {
+                                    onSelectStat(stat)
+                                }
+                            }}>
+                            {def.name}
+                        </button>
                     ))}
                 </div>
             </div> 
