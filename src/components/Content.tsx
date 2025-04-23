@@ -15,9 +15,10 @@ const ContentSection: React.FC = () => {
     }
     
     return (
-        <div className="flex">
-            <div className="basis-2/3">
+        <div className="flex gap-6">
+            <div className="basis-2/3 my-10 ml-10">
                 <Map selectedStat={selectedStat}/>
+                {/* <StatList selectedStat={selectedStat}/> */}
             </div>
             <div className="basis-1/3 my-10 mr-10">
                 <StatBox selectedStat={selectedStat} onSelectStat={onSelectStat} />

@@ -6,7 +6,7 @@ const HeaderSection: React.FC = () => {
 
     return (
         <div className="max-w-8xl mx-auto">      
-            <div className="w-full mx-auto flex flex-row items-center text-left mt-2 ml-4 gap-5">
+            <div className="w-full mx-auto flex flex-row items-center text-left mt-8 ml-6 gap-5">
         
                 {/* Map Pin Icon */}
                 <div className="basis-1/8">
@@ -18,7 +18,7 @@ const HeaderSection: React.FC = () => {
                 </div>
 
                 {/* Page Header */}
-                <h1 className="basis-7/8 text-3xl font-light">The United Stats Project</h1>
+                <h1 className="basis-7/8 text-4xl font-light">The United Stats Project</h1>
             </div>
 
             <hr className="max-w-8xl h-0.5 mx-auto my-4 mr-5 ml-5 bg-gray-200 border-0 rounded-med"/>

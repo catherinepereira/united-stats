@@ -1,5 +1,5 @@
 "use client"
-import { Stat } from "@/data/statdefinition";
+import { Stat, StatDefinition, Stats } from "@/data/statdefinition";
 import { geoAlbersUsa, geoPath, GeoPermissibleObjects, scaleQuantize } from "d3";
 import { useEffect, useState } from "react";
 import combinedData from "../data/combined-data.json";
@@ -12,9 +12,18 @@ type Props = {
 
 const Map: React.FC<Props> = ({selectedStat}) => {
     const [domainRange, setDomainRange] = useState<[number, number]>([0, 100]);
+    const [statDefinition, setStatDefinition] = useState<StatDefinition | undefined>(undefined);
 
     const features = usStates.features;
     const data = combinedData;
+
+    useEffect(() => {
+        if (selectedStat) {
+            setStatDefinition(Stats[selectedStat])
+        } else {
+            setStatDefinition(undefined)
+        }
+    }, [selectedStat])
 
     useEffect(() => {
         if (!selectedStat) return;
@@ -40,7 +49,9 @@ const Map: React.FC<Props> = ({selectedStat}) => {
     };
 
     return (
-        <div>
+        <div className="border border-gray-300 p-4 rounded-2xl bg-white shadow-lg">
+            {statDefinition && (<h1 className="text-3xl font-light text-black mt-4 ml-4 text-center transition-opacity">{statDefinition.name}</h1>)}
+
             <svg viewBox="0 0 800 500" style={{ width: "100%", height: "auto" }}>
                 {features.map((feature, index) => (
                     <path
